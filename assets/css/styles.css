@@ -400,7 +400,7 @@ img{
     width: 200px;
     border-radius: .5rem;
     justify-self: center;
-    align-self: center;
+
 }
 
 .about__description{
@@ -502,7 +502,44 @@ padding-left: 2.7rem;
 }
 
 .skills__html{
-    width: 90%;
+    width: 80%;
+}
+
+.skills__css{
+    width: 80%;
+}
+
+.skills__js{
+    width: 75%;
+}
+
+.skills__react{
+    width: 60%;
+}
+
+.skills__php{
+    width: 70%;
+}
+
+.skills__firebase{
+    width: 50%;
+}
+
+.skills__node{
+    width: 60%;
+}
+
+
+.skills__ruby{
+    width: 85%;
+}
+
+.skills__adobe{
+    width: 70%;
+}
+
+.skills__photoshop{
+    width: 60%;
 }
 
 .skills__close .skills__list{
@@ -1087,9 +1124,7 @@ padding-left: 2.7rem;
         justify-content: space-between;
     }
 
-    .about__buttons{
-        justify-content: initial;
-    }
+   
 
     .qualification__tabs{
         justify-content: center;
