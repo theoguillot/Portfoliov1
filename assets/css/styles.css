@@ -865,6 +865,10 @@ padding-left: 2.7rem;
 /*==================== FOOTER ====================*/
 .footer{
     padding-top: 2rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer__container{
