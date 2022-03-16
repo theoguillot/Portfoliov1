@@ -379,6 +379,11 @@ img{
 .button--flex{
     display: inline-flex;
     align-items: center;
+    
+}
+
+.button--thanks{
+    text-align: center;
 }
 
 .button--small{
