@@ -367,6 +367,12 @@ img{
     transition: .3s;
 }
 
+.left__button__icon{
+    font-size: 1.25rem;
+    margin-right: var(--mb-0-5);
+    transition: .3s;
+}
+
 .button--white{
     background-color: #FFF;
     color: var(--first-color);
@@ -742,6 +748,7 @@ padding-left: 2.7rem;
 
 .portfolio__img{
     width: 265px;
+    height: 200px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -758,6 +765,10 @@ padding-left: 2.7rem;
 
 .portfolio__button:hover .button__icon{
     transform: translateX(.25rem);
+}
+
+.portfolio__button:hover .left__button__icon{
+    transform: translateX(-.25rem);
 }
 
 .swiper-button-prev::after,
